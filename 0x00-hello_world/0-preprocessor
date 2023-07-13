@@ -1,2 +1,2 @@
-/*
-comments*/
+#1/bin/bash
+gcc -E $FILE -o C
