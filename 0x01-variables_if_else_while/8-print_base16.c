@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Return: Alays (0)
+ * Return: Always (0)
  */
 int main(void)
 {
@@ -11,10 +11,10 @@ int main(void)
 	{
 		putchar(i + '0');
 	}
-	/* Printing letters A-F */
+	/* Printing letters a-f */
 	for (i = 10; i < 16; i++)
 	{
-		putchar(i + 'A' - 10);
+		putchar(i + 'a' - 10);
 	}
 	putchar('\n');
 	return (0);
