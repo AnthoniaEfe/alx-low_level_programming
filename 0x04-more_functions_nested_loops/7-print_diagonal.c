@@ -19,7 +19,7 @@ void print_diagonal(int n)
 			for (space = 1; space <= i; ++space)
 			{
 				if (space == i)
-					_putchar('\\');
+					_putchar(92);/*ASCII code for \*/
 				else if (space < i)
 					_putchar(' ');
 			}
