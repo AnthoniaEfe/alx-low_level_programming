@@ -12,8 +12,8 @@ void rev_string(char *s)
 {
 	int i, len, temp;
 
-	/* strlen() to get length of string*/
-	len = strlen(str1)
+	for (len = 0; s[len] != '\0'; ++len)
+		;
 
 	for (i = 0; i < len / 2; i++)
 	{
