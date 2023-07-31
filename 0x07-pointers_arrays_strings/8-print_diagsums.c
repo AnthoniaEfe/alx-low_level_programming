@@ -1,4 +1,4 @@
-#include "mainh"
+#include "main.h"
 
 /**
  * print_diagsums - print sum of two diagonals
