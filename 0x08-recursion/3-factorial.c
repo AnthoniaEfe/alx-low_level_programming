@@ -3,9 +3,9 @@
 /**
  * factorial - function returns factorial of n
  *
- * @n - number
+ * @n: number
  *
- * Return: factorial
+ * Return: factorial of n
  *	1, if n=1
  *	-1, if n<0
  */
@@ -16,6 +16,6 @@ int factorial(int n)
 		return (n * factorial(n - 1));
 	else if (n == 0)
 		return (1);
-	else
+	else if (n < 0)
 		return (-1);
 }
