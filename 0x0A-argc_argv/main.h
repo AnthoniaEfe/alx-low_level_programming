@@ -1,5 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
+
+#include <stdlibh>
 #include <stdio.h>
 
 int _putchar(char c);
